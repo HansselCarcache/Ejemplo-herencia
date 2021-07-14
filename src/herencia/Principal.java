@@ -5,6 +5,7 @@
  */
 package herencia;
 
+import java.util.ArrayList;
 import modelos.*;
 
 /**
@@ -37,9 +38,17 @@ public class Principal {
        
         
        
-        System.out.println(keyhan.toString());
+       /* System.out.println(keyhan.toString());
         System.out.println(laura);
-        System.out.println(nuevoCliente);
+        System.out.println(nuevoCliente);*/
+        
+        ArrayList<Persona> lista = new ArrayList();
+        lista.add(keyhan);
+        lista.add(hanssel);
+        lista.add(laura);
+        for(Persona p: lista){
+            System.out.println(p.toString());
+        }
     }
     
 }

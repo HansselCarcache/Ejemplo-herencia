@@ -19,6 +19,11 @@ public class Persona {
     public Persona() {
     }
 
+    @Override
+    public String toString() {
+        return "Persona{" + "id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + ", sexo=" + sexo + '}';
+    }
+
     
     public String mostrarDatosP() {
         return "Persona{" + "id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + ", sexo=" + sexo + '}';
